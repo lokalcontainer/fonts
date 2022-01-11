@@ -11,6 +11,10 @@ Name = Width;
 Tag = wdth;
 }
 );
+},
+{
+name = "New Parameter";
+value = "New Value";
 }
 );
 date = "2018-07-14 21:09:12 +0000";
@@ -119,14 +123,13 @@ guideLines = (
 position = "{20, -260}";
 }
 );
-iconName = Bold_SemiExtended;
+iconName = Bold;
 id = "898421D1-ED89-4F9A-874F-2D62076340E9";
 userData = {
 GSOffsetHorizontal = 80;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 72;
 };
-weightValue = 0;
 xHeight = 565;
 },
 {
@@ -153,6 +156,7 @@ GSOffsetHorizontal = 80;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 72;
 };
+weightValue = 125;
 xHeight = 565;
 }
 );
@@ -29890,12 +29894,11 @@ name = underlinePosition;
 value = -260;
 }
 );
-interpolationWeight = 0;
 instanceInterpolations = {
 "898421D1-ED89-4F9A-874F-2D62076340E9" = 1;
 };
 name = Ultra;
-weightClass = Black;
+weightClass = Heavy;
 },
 {
 customParameters = (
@@ -29908,11 +29911,13 @@ name = underlinePosition;
 value = -260;
 }
 );
+interpolationWeight = 125;
 instanceInterpolations = {
 "3B426CF6-0C00-48CC-B0F4-6E2C4CD07FAD" = 1;
 };
 name = "Ultra Wide";
 weightClass = Heavy;
+widthClass = Expanded;
 }
 );
 kerning = {
